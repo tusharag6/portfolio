@@ -5,16 +5,16 @@ import Education from "@/components/education";
 
 export default function Home() {
   return (
-    <main className="px-4 md:px-0">
-      <section className="pb-14 border-b border-slate-300 mb-14">
+    <main className="px-6 md:px-0">
+      <section className="pb-12 border-b border-slate-300 mb-16">
         <div className="flex justify-between">
           <h1 className="font-semibold text-4xl text-slate-950">
             Hello, I’m Tushar.
-            <span className="block text-slate-500 font-normal text-2xl">
+            <span className="block mt-2 text-slate-500 font-normal text-2xl">
               A web developer from India.
             </span>
           </h1>
-          <div className="">
+          <div>
             <Image
               src="/dp.jpg"
               width={80}
@@ -24,7 +24,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <p className="text-slate-700 text-lg md:text-xl leading-normal mt-4">
+        <p className="text-slate-700 text-lg md:text-xl leading-normal mt-6">
           I build web applications that are practical, easy to use, and solve
           real-world problems. I focus on creating full-stack websites that work
           well and make a difference.
