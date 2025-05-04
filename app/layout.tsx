@@ -6,7 +6,6 @@ import localFont from "next/font/local";
 import { JetBrains_Mono } from "next/font/google";
 
 import clsx from "clsx";
-import Script from "next/script";
 
 const SaansFont = localFont({
   src: "./saans-font.woff2",
