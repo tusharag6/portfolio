@@ -44,7 +44,7 @@ export default function RootLayout({
                 ta
               </h1>
             </Link>
-            <nav className="flex gap-6">
+            {/* <nav className="flex gap-6">
               <Link
                 href="/blogs"
                 className="text-slate-950 text-sm tracking-tighter font-mono font-semibold"
@@ -57,7 +57,7 @@ export default function RootLayout({
               >
                 Snippets
               </Link>
-            </nav>
+            </nav> */}
           </header>
           {children}
           <footer className="px-6 md:px-0 border-t border-slate-200 py-8 mt-8 text-slate-700 font-mono text-xs tracking-tight flex justify-between">
