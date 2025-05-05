@@ -11,8 +11,8 @@ const educationData = [
   },
   {
     id: 2,
-    period: "Apr 2017 - May 2018",
-    institution: "Guru Nanak Public School",
+    period: "Apr 2019 - May 2020",
+    institution: "Guru Nanak Public School, Sambalpur",
     degree: "Class 12th",
   },
 ];
